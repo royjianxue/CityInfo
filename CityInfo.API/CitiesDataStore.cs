@@ -6,7 +6,8 @@ namespace CityInfo.API
     public class CitiesDataStore
     {
         public List<CityDto> Cities { get; set; }
-        public static CitiesDataStore Current { get; } = new CitiesDataStore();
+        //public static CitiesDataStore Current { get; } = new CitiesDataStore();
+
         public CitiesDataStore()
         {
             //init dummy data
@@ -54,8 +55,6 @@ namespace CityInfo.API
                             Description = "The finest example of railway architechture in Belgium"
                         }
                     }
-                    
-
 
                 },
                 new CityDto(){ 
